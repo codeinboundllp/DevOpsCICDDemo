@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  overflow: hidden;
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.services {
+  background-image: src='/images/img-2.jpg';
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.products {
+  background-image: src='/images/img-1.jpg';
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-image: src='/images/img-8.jpg';
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.Contacts{
+  background-image: src='/images/img-8.jpg';
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #000;;
+  font-size: 100px;
+}
+.about{
+  background-image: src='/images/img-8.jpg';
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.btn{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(214, 214, 43);
+  color:#0e0b0b;
+  border: 1px solid #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-light{
+  background: transparent;
+  color: #fbeeee;
+}
+
+.btn:hover{
+  background: rgba(91, 82, 82, 0.2);
+  color: #9d9797;
+  transition: 0.3s;
+}
+h1,h4,p,a{
+  color: #fff;
+  text-decoration: none;
+}
