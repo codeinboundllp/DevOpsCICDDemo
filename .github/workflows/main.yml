@@ -1,4 +1,4 @@
-name: React Application deploy 
+name: CICD React App
 on:
   push:
     branches:
