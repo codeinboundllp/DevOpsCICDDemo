@@ -10,7 +10,6 @@ on:
 
 jobs:
   build:
-    
     runs-on: ubuntu-latest
 
     strategy:
@@ -27,10 +26,10 @@ jobs:
     
     - name: Install dependencies
       run: npm install 
-
-
+      
     - name: Build
       run: CI=false npm run build
+      
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v2
       with:
