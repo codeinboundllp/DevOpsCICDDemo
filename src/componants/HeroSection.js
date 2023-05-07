@@ -11,7 +11,7 @@ function HeroSection() {
                     <img className='into-img' src='/images/soft.jpg' alt='introimg'/></div>
                      <div className='content'>
                        <h2>DevOps with AWS</h2>
-                        <p>Live Training Course not started.</p>
+                        <p>Live Training Course started.</p>
                       </div>
               </div>
         </div>
